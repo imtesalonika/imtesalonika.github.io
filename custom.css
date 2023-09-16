@@ -11,7 +11,7 @@ body {
   justify-content: center; */
 }
 
-.login-body, .index-body {
+.login-body, .index-body, .challenges-body {
   /* color: #444444; */
   border-top: 10px solid #1098ad;
   display: flex;
@@ -294,7 +294,7 @@ table, form {
 
 .kategoriku {
   display: flex;
-  gap: 5px;
+  gap: 10px;
 }
 
 .sub-article {
@@ -334,7 +334,7 @@ table, form {
 }
 
 .sub-challenges{
-  width: 100%;
+  width: 800px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -405,5 +405,4 @@ table, form {
 
 .sub-index {
   width: 800px;
-
 }
